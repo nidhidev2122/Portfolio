@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, Mail } from "lucide-react";
 import { useEffect } from "react";
-import portraitAsset from "../assets/dev-nidhi-portrait.jpeg.asset.json";
+   import portraitAsset from "../assets/dev-nidhi-portrait.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -115,7 +115,7 @@ function Index() {
           </div>
           <div className="order-1 lg:order-2">
             <div className="portrait-reveal overflow-hidden rounded-sm bg-secondary">
-              <img src={portraitAsset.url} alt="Dev Nidhi, software and AI/ML engineer" className="aspect-[4/5] w-full object-cover object-center" />
+              <img src={portraitAsset} alt="Dev Nidhi, software and AI/ML engineer" className="aspect-[4/5] w-full object-cover object-center" />
             </div>
           </div>
         </section>
