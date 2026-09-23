@@ -6,7 +6,7 @@ import portraitAsset from "../assets/dev-nidhi-portrait.jpeg.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dev Nidhi | Software & AI/ML Engineer" },
+      { title: "Bellary Dev Nidhi | Software & AI/ML Engineer" },
       {
         name: "description",
         content:
